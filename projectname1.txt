@@ -1,0 +1,35 @@
+{
+    "id": "chatcmpl-Dmh9sMuUD3nCcHg9bKnSXUun68Xj6",
+    "object": "chat.completion",
+    "created": 1780498016,
+    "model": "gpt-5-nano-2025-08-07",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Hi Hriitik! Nice to meet you. Do you want me to call you Hriitik with a capital H, or would you prefer a different name/nickname? How can I help you today? I can answer questions, help with writing or coding, plan tasks, explain topics, and more. What would you like to do?",
+                "refusal": null,
+                "annotations": []
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 13,
+        "completion_tokens": 526,
+        "total_tokens": 539,
+        "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+            "reasoning_tokens": 448,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+        }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+}
